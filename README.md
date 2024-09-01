@@ -1,2 +1,5 @@
 # Mr.Fixer-bot
-A bot for my friends discord server
+
+A small discord bot I made for my friends discord server.
+
+Does contain a web scrapper
