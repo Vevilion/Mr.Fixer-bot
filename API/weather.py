@@ -7,7 +7,7 @@ from API.utils.iso_country_codes import ISO3166
 async def weather_call(location, interaction):
     """Fetches a weather data from https://openweathermap.org. Takes in an arg for a city/country"""
 
-    API_KEY = 'ac7c5007815065bbbb42b9f7312b553b'
+    API_KEY = ['API TOKEN HERE']
     WEATHER_URL = 'http://api.openweathermap.org/data/2.5/weather'
 
     request_url = f"{WEATHER_URL}?appid={API_KEY}&q={location}"
